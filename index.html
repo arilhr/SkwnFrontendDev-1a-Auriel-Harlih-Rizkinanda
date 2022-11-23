@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dekoor</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/responsive.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-section-1">
+          <img class="logo" src="./img/logo-lg.png" alt="Dekoor Logo" />
+        </div>
+        <div class="nav-section-2 hidden">
+          <div class="nav-menu">
+            <div class="menu-list">
+              <a href="#about" class="menu-item">
+                <span>
+                  About us
+                  <div class="line"></div>
+                </span>
+              </a>
+              <a href="#furniture" class="menu-item">
+                <span>
+                  Furniture
+                  <div class="line"></div>
+                </span>
+              </a>
+              <a href="#partnership" class="menu-item">
+                <span>
+                  Partnership
+                  <div class="line"></div>
+                </span>
+              </a>
+              <a href="#contact" class="menu-item">
+                <span>
+                  Contact
+                  <div class="line"></div>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="nav-btn-menu">
+            <div class="btn-list">
+              <button class="btn nav-signup-btn">Sign Up</button>
+              <button class="btn nav-item-btn">
+                <div class="btn-icon">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_4_583)">
+                      <path
+                        d="M18 6H16C16 3.79 14.21 2 12 2C9.79 2 8 3.79 8 6H6C4.9 6 4 6.9 4 8V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8C20 6.9 19.1 6 18 6ZM12 4C13.1 4 14 4.9 14 6H10C10 4.9 10.9 4 12 4ZM18 20H6V8H8V10C8 10.55 8.45 11 9 11C9.55 11 10 10.55 10 10V8H14V10C14 10.55 14.45 11 15 11C15.55 11 16 10.55 16 10V8H18V20Z"
+                        fill="#E5F1B5"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_4_583">
+                        <rect width="24" height="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="btn-burger">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2 5.995C2 5.445 2.446 5 2.995 5H11.005C11.2689 5 11.522 5.10483 11.7086 5.29143C11.8952 5.47803 12 5.73111 12 5.995C12 6.25889 11.8952 6.51197 11.7086 6.69857C11.522 6.88517 11.2689 6.99 11.005 6.99H2.995C2.73111 6.99 2.47803 6.88517 2.29143 6.69857C2.10483 6.51197 2 6.25889 2 5.995ZM2 12C2 11.45 2.446 11.005 2.995 11.005H21.005C21.2689 11.005 21.522 11.1098 21.7086 11.2964C21.8952 11.483 22 11.7361 22 12C22 12.2639 21.8952 12.517 21.7086 12.7036C21.522 12.8902 21.2689 12.995 21.005 12.995H2.995C2.73111 12.995 2.47803 12.8902 2.29143 12.7036C2.10483 12.517 2 12.2639 2 12ZM2.995 17.01C2.73111 17.01 2.47803 17.1148 2.29143 17.3014C2.10483 17.488 2 17.7411 2 18.005C2 18.2689 2.10483 18.522 2.29143 18.7086C2.47803 18.8952 2.73111 19 2.995 19H15.005C15.2689 19 15.522 18.8952 15.7086 18.7086C15.8952 18.522 16 18.2689 16 18.005C16 17.7411 15.8952 17.488 15.7086 17.3014C15.522 17.1148 15.2689 17.01 15.005 17.01H2.995Z"
+              fill="#101828"
+            />
+          </svg>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section id="about" class="hero">
+        <div class="hero-container">
+          <div class="hero-section-1">
+            <h1 class="head-text">
+              The kind of <span class="secondary-color">furniture</span> you
+              have been looking for
+            </h1>
+            <div class="btn-list">
+              <button class="btn btn-primary">
+                <svg
+                  class="icon"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_4_487)">
+                    <path
+                      d="M15.5 14H14.71L14.43 13.73C15.63 12.33 16.25 10.42 15.91 8.39002C15.44 5.61002 13.12 3.39002 10.32 3.05002C6.09001 2.53002 2.53002 6.09001 3.05002 10.32C3.39002 13.12 5.61002 15.44 8.39002 15.91C10.42 16.25 12.33 15.63 13.73 14.43L14 14.71V15.5L18.25 19.75C18.66 20.16 19.33 20.16 19.74 19.75C20.15 19.34 20.15 18.67 19.74 18.26L15.5 14ZM9.50002 14C7.01002 14 5.00002 11.99 5.00002 9.50002C5.00002 7.01002 7.01002 5.00002 9.50002 5.00002C11.99 5.00002 14 7.01002 14 9.50002C14 11.99 11.99 14 9.50002 14Z"
+                      fill="#553B33"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_4_487">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span>Search Catalog</span>
+              </button>
+              <button class="btn btn-secondary">
+                <svg
+                  class="icon"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.8 15.9L15.47 12.4C15.74 12.2 15.74 11.8 15.47 11.6L10.8 8.1C10.47 7.85 10 8.09 10 8.5V15.5C10 15.91 10.47 16.15 10.8 15.9ZM12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z"
+                    fill="#553B33"
+                  />
+                </svg>
+                <span>Watch Videos</span>
+              </button>
+            </div>
+          </div>
+          <div class="hero-section-2">
+            <div class="description-container">
+              <div class="description">
+                <div class="price">$329</div>
+                <div class="name">Pösht Sofa</div>
+                <button class="btn btn-detail">View Details</button>
+              </div>
+            </div>
+            <img class="hero-image" src="./img/hero-image.png" alt="Hero" />
+          </div>
+        </div>
+      </section>
+      <section class="whyus">
+        <div class="whyus-container">
+          <span class="title">Why Choose Us?</span>
+          <h1 class="slogan">
+            We care about details and the quality of our products
+          </h1>
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_4_487)">
+                    <path
+                      d="M15.5 14H14.71L14.43 13.73C15.63 12.33 16.25 10.42 15.91 8.39002C15.44 5.61002 13.12 3.39002 10.32 3.05002C6.09001 2.53002 2.53002 6.09001 3.05002 10.32C3.39002 13.12 5.61002 15.44 8.39002 15.91C10.42 16.25 12.33 15.63 13.73 14.43L14 14.71V15.5L18.25 19.75C18.66 20.16 19.33 20.16 19.74 19.75C20.15 19.34 20.15 18.67 19.74 18.26L15.5 14ZM9.50002 14C7.01002 14 5.00002 11.99 5.00002 9.50002C5.00002 7.01002 7.01002 5.00002 9.50002 5.00002C11.99 5.00002 14 7.01002 14 9.50002C14 11.99 11.99 14 9.50002 14Z"
+                      fill="#553B33"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_4_487">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <p>MANUFACTURED WITH QUALITY MATERIALS</p>
+            </div>
+            <div class="feature-item">
+              <div class="icon">5</div>
+              <p>MANUFACTURED WITH QUALITY MATERIALS</p>
+            </div>
+            <div class="feature-item">
+              <div class="icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_4_667)">
+                    <path
+                      d="M14 6V4H10V6H14ZM4 9V18C4 18.55 4.45 19 5 19H19C19.55 19 20 18.55 20 18V9C20 8.45 19.55 8 19 8H5C4.45 8 4 8.45 4 9ZM20 6C21.11 6 22 6.89 22 8V19C22 20.11 21.11 21 20 21H4C2.89 21 2 20.11 2 19L2.01 8C2.01 6.89 2.89 6 4 6H8V4C8 2.89 8.89 2 10 2H14C15.11 2 16 2.89 16 4V6H20Z"
+                      fill="#F4F4F4"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_4_667">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <p>MANUFACTURED WITH QUALITY MATERIALS</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="partnership" class="partner">
+        <div class="partner-container">
+          <div class="title">
+            <h1>25+</h1>
+            <p>PARTNERED BRANDS</p>
+          </div>
+          <div class="partner-list">
+            <div class="partner-item">
+              <img src="./img/Company logo.png" alt="Company" />
+            </div>
+            <div class="partner-item">
+              <img src="./img/Company logo-1.png" alt="Company 1" />
+            </div>
+            <div class="partner-item">
+              <img src="./img/Company logo-2.png" alt="Company 2" />
+            </div>
+            <div class="partner-item">
+              <img src="./img/Company logo-3.png" alt="Company 3" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="furniture" class="category">
+        <div class="category-container">
+          <div class="category-image-list">
+            <div class="category-image-item">
+              <img src="./img/category-3.jpg" alt="Category 3" />
+            </div>
+            <div class="category-image-item">
+              <img src="./img/category-1.jpg" alt="Category 1" />
+            </div>
+            <div class="category-image-item active">
+              <img src="./img/category-2.jpg" alt="Category 2" />
+            </div>
+          </div>
+          <div class="category-desc">
+            <div class="title">Categories</div>
+            <h1 class="header">Furniture Sets Recommendations</h1>
+            <div class="accordion-list">
+              <div class="accordion-item">
+                <h3 class="title">Bedroom</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Incidunt tenetur labore provident ad deleniti excepturi
+                  voluptates debitis iusto recusandae quasi odit qui, sapiente
+                  quo molestiae atque earum. Et, impedit officia!
+                </p>
+              </div>
+              <div class="accordion-item active">
+                <h3 class="title">Living Room</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Incidunt tenetur labore provident ad deleniti excepturi
+                  voluptates debitis iusto recusandae quasi odit qui, sapiente
+                  quo molestiae atque earum. Et, impedit officia!
+                </p>
+              </div>
+              <div class="accordion-item">
+                <h3 class="title">Home Office</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Incidunt tenetur labore provident ad deleniti excepturi
+                  voluptates debitis iusto recusandae quasi odit qui, sapiente
+                  quo molestiae atque earum. Et, impedit officia!
+                </p>
+              </div>
+              <div class="accordion-item">
+                <h3 class="title">Gaming Room</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Incidunt tenetur labore provident ad deleniti excepturi
+                  voluptates debitis iusto recusandae quasi odit qui, sapiente
+                  quo molestiae atque earum. Et, impedit officia!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <div class="products-container">
+          <div class="header">
+            <div class="section-1">
+              <span>Our Products</span>
+              <h3>This month’s best seller</h3>
+            </div>
+            <div class="section-2">
+              <button class="btn btn-detail">See More</button>
+            </div>
+          </div>
+          <div class="product-container-2">
+            <div class="product-list-container">
+              <div class="products-list">
+                <div class="products-item">
+                  <div class="product-image">
+                    <img src="./img/product/product-1.jpg" alt="Product" />
+                  </div>
+                  <div class="filter"></div>
+                  <div class="desc">
+                    <span class="price">$329</span>
+                    <span class="name">Sofa Und</span>
+                  </div>
+                </div>
+                <div class="products-item active">
+                  <div class="product-image">
+                    <img src="./img/product/product-2.jpg" alt="Product" />
+                  </div>
+                  <div class="filter"></div>
+                  <div class="desc">
+                    <span class="price">$329</span>
+                    <span class="name">Sofa Und</span>
+                  </div>
+                </div>
+                <div class="products-item">
+                  <div class="product-image">
+                    <img src="./img/product/product-3.jpg" alt="Product" />
+                  </div>
+                  <div class="filter"></div>
+                  <div class="desc">
+                    <span class="price">$329</span>
+                    <span class="name">Sofa Und</span>
+                  </div>
+                </div>
+                <div class="products-item">
+                  <div class="product-image">
+                    <img src="./img/product/product-4.jpg" alt="Product" />
+                  </div>
+                  <div class="filter"></div>
+                  <div class="desc">
+                    <span class="price">$329</span>
+                    <span class="name">Sofa Und</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-list-navigator">
+              <div class="product-list-navigator-prev-btn">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_4_723)">
+                    <path
+                      d="M17.51 3.86998L15.73 2.09998L5.83997 12L15.74 21.9L17.51 20.13L9.37997 12L17.51 3.86998Z"
+                      fill="#2F241F"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_4_723">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="product-list-navigator-next-btn">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_4_725)">
+                    <path
+                      d="M6.48999 20.13L8.25999 21.9L18.16 12L8.25999 2.09998L6.48999 3.86998L14.62 12L6.48999 20.13Z"
+                      fill="#2F241F"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_4_725">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="deals">
+        <div class="deals-container">
+          <span class="title">Limited Deals</span>
+          <h3>Become a member and get 10% off of your first purchase</h3>
+          <div class="email-container">
+            <input
+              class="email-input"
+              type="email"
+              placeholder="Enter your email here"
+            />
+            <button class="btn btn-email">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_4_578)">
+                  <path
+                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6ZM20 6L12 10.99L4 6H20ZM20 18H4V8L12 13L20 8V18Z"
+                    fill="#2F241F"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_4_578">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      <div class="footer-container">
+        <div class="section-1">
+          <div class="logo">
+            <img src="./img/logo-lg.png" alt="Dekoor Logo" />
+          </div>
+          <p class="desc">
+            Dekoor is a furniture company created to fulfill the needs of family
+            with aesthetic feeling in their furniture. Always pay attention to
+            details and give clear communication for the customers. Priority of
+            our design is comfortability.
+          </p>
+          <p class="copyright">©Copyright 2022 Dekoor</p>
+        </div>
+        <div class="section-2">
+          <div class="list">
+            <div class="header">Support</div>
+            <div class="items">
+              <span class="item">FAQ</span>
+              <span class="item">Shipping & Returns</span>
+              <span class="item">Care guide</span>
+              <span class="item">Redeem warranty</span>
+            </div>
+          </div>
+          <div class="list">
+            <div class="header">Social Media</div>
+            <div class="items">
+              <span class="item">Instagram</span>
+              <span class="item">Facebook</span>
+              <span class="item">Twitter</span>
+              <span class="item">TikTok</span>
+            </div>
+          </div>
+          <div class="list">
+            <div class="header">About Us</div>
+            <div class="items">
+              <span class="item">Our Story</span>
+              <span class="item">Designer</span>
+              <span class="item">Craftmanship</span>
+              <span class="item">Sustainability</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/accordion.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/navbar.js"></script>
+  </body>
+</html>
