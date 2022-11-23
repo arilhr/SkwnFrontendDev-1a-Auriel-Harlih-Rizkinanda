@@ -1,9 +1,8 @@
 # 1A - SkwnFrontendDev
 
+LINK DEPLOYMENT: https://dekoor-arilhr.vercel.app/
 
-LINK DEPLOYMENT: 
+## HOW TO START THE PROJECT:
 
-
-## HOw TO START THE PROJECT:
 1. Clone the Project.
 2. Open the index.html file.
